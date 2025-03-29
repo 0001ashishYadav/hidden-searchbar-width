@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchCon {
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  padding: 12px 24px;
+  transition: all 1s ease-in;
+}
+
+.searchCon input {
+  border: none;
+  outline: none;
+  transition: all 1s ease-in;
+  background-color: transparent;
+}
+
+.mgnIcon:focus,
+#input:focus {
+  outline: none;
+}
+
+.width {
+  width: auto;
+}
+
+.hide {
+  transform: translateX(200%);
+}
