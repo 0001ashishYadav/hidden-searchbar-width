@@ -1,13 +1,11 @@
 const searchConEl = document.getElementById("searchCon");
 searchConEl.classList.add("searchCon");
 
-const MgnIcon = document.getElementById("mgnIcon");
-MgnIcon.classList.add("mgnIcon");
+const searchBtnEl = document.getElementById("searchBtn");
+searchBtnEl.classList.add("searchBtn");
 
-const InpEl = document.getElementById("input");
+let isInputPresent = false;
 
-MgnIcon.addEventListener("click", () => {
+searchBtnEl.addEventListener("click", () => {
   searchConEl.classList.toggle("width");
-
-  InpEl.classList.toggle("hide");
 });

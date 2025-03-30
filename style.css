@@ -16,29 +16,48 @@ body {
 }
 
 .searchCon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   text-align: center;
   background-color: white;
-  padding: 12px 24px;
+  position: relative;
+  border-radius: 30px;
   transition: all 1s ease-in;
 }
 
 .searchCon input {
   border: none;
   outline: none;
-  transition: all 1s ease-in;
   background-color: transparent;
-}
-
-.mgnIcon:focus,
-#input:focus {
-  outline: none;
+  width: 70%;
+  margin-right: 52px;
+  font-weight: 600;
 }
 
 .width {
-  width: auto;
+  width: 300px;
 }
 
-.hide {
-  transform: translateX(200%);
+.searchBtn {
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  right: 0px;
+  background-color: white;
+  outline: none;
+  border: none;
+  color: aquamarine;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 30px;
+}
+
+.msg-con {
+  position: absolute;
+  bottom: 40vh;
+  color: rgb(136, 137, 137);
 }

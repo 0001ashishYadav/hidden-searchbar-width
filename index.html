@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
 
@@ -17,9 +18,15 @@
   </head>
   <body>
     <div class="main">
-      <div id="searchCon" class="width">
+      <div id="searchCon">
         <input id="input" type="search" placeholder="search" />
-        <i id="mgnIcon" class="bi bi-search"></i>
+        <button id="searchBtn">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+
+      <div class="msg-con">
+        <p>Click on Search Icon</p>
       </div>
     </div>
   </body>
